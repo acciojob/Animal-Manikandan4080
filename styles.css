@@ -1,1 +1,36 @@
 /*  your css code here. If applicable */
+*{
+	color:white;
+	margin: 0px;
+	padding: 0px;
+}
+#photo-heading{
+	color:white;
+	text-align:center;
+}
+body{
+    
+    background-color: black;
+}
+#animal-photos{
+	background-color:grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: fit-content;
+    height: 100%;
+    border-radius: 10px;
+    padding: 10px;
+}
+#animal-container{
+    padding: 10px;
+    gap: .3rem;
+    width: auto;
+    height: 100%;
+}
+.photo{
+    width: 170px;
+    border-radius: 10px;
+}
